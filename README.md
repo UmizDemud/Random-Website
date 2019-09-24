@@ -1,2 +1,3 @@
 # Random-Website
-Drawin what I see
+
+Visual copy of a demo website to work on me css skilzz
