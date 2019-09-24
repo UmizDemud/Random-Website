@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://demo.web3canvas.com/themeforest/kalyan/images/pattern.png) repeat #eceaec;
+    color: #5b5b5b;
+}
+
+p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #5b5b5b;
+    line-height: 20px;
+}
+
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-family: oswald,impact,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #524e47;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-family: Georgia,times new roman,Times,serif;
+    font-size: 18px;
+    color: #524e47;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 400;
+}
+
+a:not(.notxt) {
+    color: #cc2d2b;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 20px;
+}
+
+a.button {
+    padding-top: 8px;
+}
+
+.halve {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.halve + .halve {
+    margin-left: 3.1589435338973%;
+}
+
+.sectionTitle {
+    vertical-align: middle;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url(https://demo.web3canvas.com/themeforest/kalyan/images/head_bg.png) no-repeat center bottom;
+}
+
+.sectionTitle h1 {
+    padding-top: 20px;
+}
+
+#main {
+    width: 100%;
+}
+
+.container {
+    background: #fff;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.shocker {
+    font-family: oswald,impact,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #e75d5b;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#at {
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.button {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    font-family: oswald,impact,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #524e47;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.preload * {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}

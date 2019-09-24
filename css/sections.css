@@ -1,0 +1,238 @@
+.section p {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section h2 {
+    display: block;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: oswald,impact,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #524e47;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.story h1 span {
+    background: url(https://demo.web3canvas.com/themeforest/kalyan/images/star.png) no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 3px 15px;
+}
+
+.slider {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider .controller {
+    width: 100%;
+    height: 60px;
+}
+
+.controls {
+    margin: 20px 0 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.controls a {
+    margin: 0 3px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: #666;
+    background: rgba(0,0,0,.5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+}
+
+.controls a:hover {
+    background: rgba(0,0,0,.7);
+}
+
+.controls a:active {
+    background: rgba(80,10,10,.7);
+}
+
+.controls .selected {
+    background: rgba(0,0,0,.9);
+}
+
+.personCard {
+    display: inline-block;
+    width: 47%;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.story img {
+    float: right;
+    border: 7px #e6e6e6 solid;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.two {
+    text-align: left;
+}
+
+.two img {
+    float: left;
+    margin-right: 15px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+
+.info input:not(.button) {
+    width: 100%;
+    height: 32px;
+}
+
+.info select {
+    width: 100%;
+    height: 32px;
+    border: solid 1px #a6a6a6;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.info label {
+    display: block;
+    padding: 5px 0;
+}
+
+.wish {
+    width: 60%;
+    margin: 0 auto;
+    background: #ebebea;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.wish:nth-child(even) {
+    border-left: solid 3px #ec8380;
+    text-align: left;
+}
+
+.wish:nth-child(odd) {
+    border-right: solid 3px #ec8380;
+    text-align: right;
+}
+
+.wish span {
+    font-family: Georgia,times new roman,Times,serif;
+    font-size: 14px;
+    color: #9a9a9a;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.footer {
+    margin: 50px 0;
+}
+
+.footer p, .footer a {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .personCard {
+        text-align: center;
+    }
+
+    .personCard img {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .two {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .col {
+        display: block !important;
+    }
+    .col img {
+        width: initial !important;
+    }
+
+    .col + .col {
+        margin: 30px 0 0 0 !important;
+    }
+
+    p {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    
+    * {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        width: 100% !important; /* Duck Tape */
+    }
+
+    .col img {
+        margin-top: 20px !important;
+        width: 80% !important;
+    }
+
+    .mid {
+        display: none;
+    }
+
+    #at {
+        width: initial !important;
+    }
+
+    #cntct img {
+        width: initial !important;
+    }
+
+    .story img {
+        width: initial !important;
+    }
+
+    .slider a.notxt { width: 10px !important; }
+
+    .menu-wrap .hamburger > div {
+        width: 50px !important;
+    }
+
+    .sectionTitle {
+        height: initial;
+    }
+}

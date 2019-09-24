@@ -1,0 +1,31 @@
+.table {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+}
+
+.col + .col {
+    margin-left: 50px; /* 55 */
+}
+
+.row {
+    vertical-align: middle;
+}
+
+.row + .row {
+    margin-top: 30px; /* 32 */
+}
+
+.row img {
+    width: 100%;
+    color: transparent;
+    font-size: 0;
+}
+
+.center {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
